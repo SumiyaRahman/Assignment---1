@@ -123,7 +123,7 @@
     margin: 32px 0;
 }
 
-/* my-inpiration */
+/* my-inpiration section */
 .my-inpiration{
     margin-top: 90px;
 }
@@ -136,3 +136,78 @@
     border: 1px solid #0d1321;
     border-radius: 16px;
 }
+
+/* targeted technology section */
+.targeted-technology{
+    margin-top: 151px;
+    margin-bottom: 49px;
+}
+.technology-content{
+    border-radius: 16px;
+    padding: 40px;
+    width: 364px;
+}
+.current-technologies{
+    margin-bottom: 111px                                                    ;
+}
+.technology-icon{
+    margin-bottom: 24px;
+}
+.technology-title{
+    color: #0d1321;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+}
+.technology-subtitle{
+    color: #0d1321;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 8px 0px 24px 0;
+}
+.technology-resource-link{
+    color: #0d1321;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+}
+.current-technologies{
+    display: flex;
+    gap: 24px;
+}
+.html{
+    background: #ff4c1e0d;
+}
+.css{
+    background: #004ce80d;
+}
+.js{
+    background: rgba(255, 223, 0, 0.05);
+}
+
+/* next technology */
+.next-tech-container{
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding: 32px;
+}
+.node{
+    margin: 24px 0;
+}
+.react{
+    width: 94.78px;
+    height: 84.41px;
+ }
+.node-js{
+    width: 143.3px;
+    height: 87.75px;
+ }
+.mongo{
+    width: 108px;
+    height: 108px;
+ }
