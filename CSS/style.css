@@ -122,3 +122,17 @@
 .second-dev-content{
     margin: 32px 0;
 }
+
+/* my-inpiration */
+.my-inpiration{
+    margin-top: 90px;
+}
+.youtube-video{
+    display: flex;
+    justify-content: center;
+}    
+.youtube-video iframe{
+    padding: 32px;
+    border: 1px solid #0d1321;
+    border-radius: 16px;
+}
