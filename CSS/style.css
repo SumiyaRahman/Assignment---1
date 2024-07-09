@@ -5,11 +5,26 @@
     box-sizing: border-box;
     font-family: "Azeret Mono", monospace;
 }
+/* shared styles */
+.section-titles{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+}
 .subtitles{
     color: #0d1321;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
+}
+.section-subtitles-margin{
+    margin: 24px 0 48px 0;
+    text-align: center;
+}
+.section-margin{
+    margin-left: 150px;
+    margin-right: 150px;
 }
 /* navbar */
 .navbar{
@@ -64,4 +79,46 @@
 }
 .hero-button button:hover{
     background-color: #0d1321f3;
+}
+
+/* why web development */
+.why-web-dev{
+    background: #0d132105;
+    border-radius: 16px;
+    padding: 80px 97px;
+    margin-top: 74px;
+}
+.dev-content{
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 99.77px;
+    padding: 48px;
+    border-radius: 16px;
+}
+.dev-title{
+    color: #0d1321b3;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+}
+.dev-subtitle{
+    color: #0d1321;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+.learn-more{
+    text-decoration: none;
+    color: #0d1321;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 12px 20px;
+    border: 1px solid #0d1321;
+}
+.second-dev-content{
+    margin: 32px 0;
 }
