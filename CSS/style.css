@@ -131,10 +131,11 @@
 .youtube-video{
     display: flex;
     justify-content: center;
-}    
-.youtube-video iframe{
     padding: 32px;
     border: 1px solid #0d1321;
+    border-radius: 16px;
+}    
+.youtube-video iframe{
     border-radius: 16px;
 }
 
@@ -143,13 +144,25 @@
     margin-top: 151px;
     margin-bottom: 49px;
 }
+.current-technologies{
+    display: flex;
+    gap: 24px;
+}
+.html{
+    background: #ff4c1e0d;
+}
+.css{
+    background: #004ce80d;
+}
+.js{
+    background: rgba(255, 223, 0, 0.05);
+}
 .technology-content{
     border-radius: 16px;
     padding: 40px;
-    width: 364px;
 }
 .current-technologies{
-    margin-bottom: 111px                                                    ;
+    margin-bottom:111px;
 }
 .technology-icon{
     margin-bottom: 24px;
@@ -173,19 +186,7 @@
     font-weight: 700;
     line-height: 19px;
 }
-.current-technologies{
-    display: flex;
-    gap: 24px;
-}
-.html{
-    background: #ff4c1e0d;
-}
-.css{
-    background: #004ce80d;
-}
-.js{
-    background: rgba(255, 223, 0, 0.05);
-}
+
 
 /* next technology */
 .next-tech-container{
@@ -200,24 +201,11 @@
 .node{
     margin: 24px 0;
 }
-.react{
-    width: 94.78px;
-    height: 84.41px;
-}
-.node-js{
-    width: 143.3px;
-    height: 87.75px;
-}
- .mongo{
-    width: 108px;
-    height: 108px;
-}
 
  /* support section */
 .support-section{
     border-radius: 16px;
     background: linear-gradient(#00000033,#00000033,rgba(0, 0, 0, 0.2)),url("../assets/handshake.jpg");
-    height: 550px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -225,6 +213,7 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 80px;
+    padding: 64px 48px;
 }
 .support-subtitle{
     color: #ffff !important;
@@ -236,25 +225,26 @@
     color: #ffff;
 }
 .support-input{
+    width: 54.8%; 
+    height: 5.7%;
     border: 1px solid rgba(13, 19, 33, 0.15);
     border-radius: 8px;
     background: #ffffff;
-    padding: 19px 20px 19px 20px;
-    width: 548px;
-    height: 57px;
     color: #0d132166;
+    padding: 16px 20px 16px 20px; 
+}
+.support-input::placeholder{
     font-size: 16px;
     font-weight: 400;
 }
 .submit-btn button{
     border: none;
-    width: 120px;
-    height: 57px;
     border-radius: 8px;
     background: #ffffff;
     color: #0d1321;
     font-size: 20px;
     font-weight: 600;
+    padding: 17px 20px;
 }
 
 /* footer */
