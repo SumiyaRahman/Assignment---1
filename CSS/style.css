@@ -216,23 +216,32 @@
     margin-bottom: 80px;
     padding: 64px 48px;
 }
+.support-title{
+    text-align: center;
+}
 .support-subtitle{
     color: #ffff !important;
     margin: 16px 0 24px 0;
-
+    text-align: center;
 }
 .support-sec-content{
-    text-align: center;
     color: #ffff;
 }
-.support-input{
-    width: 54.8%; 
-    height: 5.7%;
+.field-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.input-div{
+    width: 100%;
+}
+.input-div input{
+    width: 100%;
     border: 1px solid rgba(13, 19, 33, 0.15);
     border-radius: 8px;
-    background: #ffffff;
-    color: #0d132166;
-    padding: 16px 20px 16px 20px; 
+    background: rgb(255, 255, 255);
+    padding: 20px 0 20px 20px;
 }
 .support-input::placeholder{
     font-size: 16px;
